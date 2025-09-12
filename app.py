@@ -2,10 +2,9 @@ import streamlit as st
 import openai
 from dotenv import load_dotenv
 import os
-import fitz  # PyMuPDF
+import fitz
 from pptx import Presentation
 
-# Load API Key from .env
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
