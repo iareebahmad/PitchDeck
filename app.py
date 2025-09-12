@@ -68,7 +68,7 @@ if uploaded_file:
 
                 result = response['choices'][0]['message']['content']
                 st.success("Analysis Complete!")
-                st.markdown(f"### 📈 Result:\n{result}")
+                st.markdown(f"### Result:\n{result}")
 
             except Exception as e:
                 st.error(f"❌ Error: {e}")
